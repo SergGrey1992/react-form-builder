@@ -1,0 +1,23 @@
+{
+  "name": "form-builder-vite-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@serggrey1992/react-form-builder": "file:../../serggrey1992-react-form-builder-0.1.0.tgz",
+    "@hookform/resolvers": "^5.9.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.66.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0",
+    "typescript": "^6.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}
