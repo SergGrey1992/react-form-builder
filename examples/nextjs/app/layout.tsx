@@ -1,6 +1,7 @@
+import './globals.css';
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import { Providers } from './providers';
-export const metadata = { title: 'React Form Builder — Next.js' };
+export const metadata = { title: 'Заявка компании — React Form Builder' };
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ru">
