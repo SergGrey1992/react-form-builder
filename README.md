@@ -4,13 +4,15 @@
 
 Ядро не зависит от UI Kit, CSS-фреймворка и библиотеки валидации. Единственный источник состояния — переданный экземпляр `useForm`.
 
+Демо: [сложная вложенная форма на Vercel](https://react-form-builder-bay.vercel.app). Пакет: [npm](https://www.npmjs.com/package/@serggrey1992/react-form-builder).
+
 ## Установка
 
 ```sh
 npm install @serggrey1992/react-form-builder react-hook-form
 ```
 
-React 18.2+/19, React Hook Form >=7.66 <8. Пакет ESM, с TypeScript declarations. До публикации используйте `npm pack` и устанавливайте полученный архив.
+React 18.2+/19, React Hook Form >=7.66 <8. Пакет ESM, с TypeScript declarations. Для локальной проверки неопубликованных изменений используйте `npm pack` и устанавливайте полученный архив.
 
 ## Быстрый старт и свой UI Kit
 

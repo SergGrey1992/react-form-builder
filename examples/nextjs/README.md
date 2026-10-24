@@ -1,12 +1,12 @@
 # Сложная форма компании — Next.js + Ant Design
 
+Онлайн: [react-form-builder-bay.vercel.app](https://react-form-builder-bay.vercel.app). Пример использует опубликованный npm-пакет версии `0.1.0`.
+
 ## Запуск
 
-Из корня репозитория:
+Из корня репозитория (собирать библиотеку отдельно не требуется):
 
 ```sh
-npm ci
-npm run prepare:examples
 cd examples/nextjs
 npm ci
 npm run dev
